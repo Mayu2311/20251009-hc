@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    font-family: sans-serif;
+    color: #707070;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.7;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.section-title .en {
+    display: block;
+    font-size: 40px;
+}
+
+.section-title .ja {
+    display: block;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
